@@ -18,6 +18,4 @@ jobs:
           node-version: 16.x
           cache: 'pnpm'
       - run: pnpm install --frozen-lockfile
-      - run: pnpm run ci
-        name: test application
       - run: pnpm run test
