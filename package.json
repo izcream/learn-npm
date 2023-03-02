@@ -1,0 +1,28 @@
+{
+  "name": "@izcream/learn-npm",
+  "version": "0.1.0",
+  "description": "just learn to publish",
+  "main": "index.js",
+  "type": "module",
+  "files": [
+    "dist",
+    "index.js"
+  ],
+  "bin": {
+    "learn-npm": "index.js"
+  },
+  "scripts": {
+    "build": "rm -rf dist && tsc"
+  },
+  "keywords": [],
+  "author": "izcream*",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/izcream/learn-npm.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.14.3",
+    "typescript": "^4.9.5"
+  }
+}
